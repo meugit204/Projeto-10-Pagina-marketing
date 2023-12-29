@@ -33,7 +33,7 @@ header {
   background-size: cover;
   padding: 30px 0;
   background-position: center;
-  min-height: 600px;
+  min-height: 450px;
 }
 header .logo {
   background-image: url(../imagens/logo.png);
@@ -41,6 +41,8 @@ header .logo {
   float: left;
   width: 132px;
   height: 20px;
+  position: relative;
+  z-index: 2;
 }
 header .descktop {
   float: right;
@@ -61,6 +63,51 @@ header .descktop .btn-nav {
   padding: 3px 8px;
   border-radius: 20px;
 }
+@media screen and (max-width: 1024px) {
+  header .descktop {
+    display: none;
+  }
+}
+header .mobile {
+  display: none;
+  float: right;
+}
+header .mobile h3 {
+  color: #fff;
+  cursor: pointer;
+  font-size: 26px;
+  position: relative;
+  z-index: 2;
+}
+header .mobile ul {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 70px 0 30px 0;
+  top: 0;
+  background-color: #31475e;
+  display: none;
+  text-align: center;
+}
+header .mobile li {
+  padding: 10px 0;
+}
+header .mobile a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+header .mobile .btn-nav {
+  border: 1px solid #fff;
+  padding: 4px 10px;
+  border-radius: 20px;
+  display: inline-block;
+}
+@media screen and (max-width: 1024px) {
+  header .mobile {
+    display: block;
+  }
+}
 header .chamada-header {
   padding: 110px 0;
 }
@@ -74,6 +121,11 @@ header .chamada-header p {
   color: #fff;
   margin-top: 10px;
   max-width: 600px;
+}
+@media screen and (max-width: 1024px) {
+  header .chamada-header p {
+    display: inline-block;
+  }
 }
 header .chamada-header form {
   margin-top: 10px;
@@ -90,6 +142,11 @@ header .chamada-header input[type=email] {
 header .chamada-header input[type=email]:focus {
   outline: 0;
 }
+@media screen and (max-width: 1024px) {
+  header .chamada-header input[type=email] {
+    margin-bottom: 10px;
+  }
+}
 header .chamada-header input[type=submit] {
   width: 181px;
   height: 43px;
@@ -98,4 +155,24 @@ header .chamada-header input[type=submit] {
   color: #fff;
   cursor: pointer;
   border: 0;
+}
+@media screen and (max-width: 1024px) {
+  header .chamada-header {
+    text-align: center;
+  }
+}
+.descricao-danki {
+  text-align: center;
+  padding: 30px 0;
+}
+.descricao-danki p {
+  font-weight: lighter;
+  font-size: 22px;
+  font-style: italic;
+  display: inline-block;
+  max-width: 680px;
+  color: #868585;
+}
+.descricao-danki p b {
+  color: #000;
 }
