@@ -168,3 +168,90 @@ header {
         }
     }
 }
+
+// descriçao-Danki2
+.descricao-danki2 {
+    padding: 50px 0;
+
+    .container {
+        max-width: 960px;
+    }
+
+    .texto-descricao {
+        padding: 0 15px;
+        float: left;
+        width: 55%;
+
+        h3 {
+            color: #31475e;
+            font-size: 22px;
+            line-height: 32px;
+            font-weight: normal;
+        }
+
+        p {
+            margin-top: 15px;
+            color: #6a7c92;
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        @media screen and (max-width:768px) {
+            width: 100%;
+            display: block;
+            float: none;
+        }
+    }
+
+    img {
+        width: 45%;
+        float: left;
+        max-width: 500px;
+
+        @media screen and (max-width:768px) {
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+            float: none;
+            margin-top: 10px;
+            max-width: 500px;
+        }
+    }
+}
+
+// descriçao-Danki3
+.descricao-danki3 {
+    padding: 30px 0 60px 0;
+
+    .container {
+        max-width: 960px;
+        background-image: url(../imagens/bg2.jpg);
+        background-size: cover;
+        min-height: 350px;
+        position: relative;
+    }
+
+    .box-depoimento {
+        position: absolute;
+        left: 50%;
+        width: 70%;
+        max-width: 506px;
+        background-color: #fff;
+        padding: 10px 30px;
+        bottom: -30px;
+        box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 0.5);
+
+        p {
+            font-size: 18px;
+            color: #31475e;
+            font-weight: lighter;
+        }
+
+        @media screen and (max-width:1024px) {
+            width: 80%;
+            top: 50%;
+            bottom: auto;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

@@ -1,6 +1,13 @@
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
@@ -175,4 +182,82 @@ header .chamada-header input[type=submit] {
 }
 .descricao-danki p b {
   color: #000;
+}
+.descricao-danki2 {
+  padding: 50px 0;
+}
+.descricao-danki2 .container {
+  max-width: 960px;
+}
+.descricao-danki2 .texto-descricao {
+  padding: 0 15px;
+  float: left;
+  width: 55%;
+}
+.descricao-danki2 .texto-descricao h3 {
+  color: #31475e;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: normal;
+}
+.descricao-danki2 .texto-descricao p {
+  margin-top: 15px;
+  color: #6a7c92;
+  font-size: 15px;
+  line-height: 25px;
+}
+@media screen and (max-width: 768px) {
+  .descricao-danki2 .texto-descricao {
+    width: 100%;
+    display: block;
+    float: none;
+  }
+}
+.descricao-danki2 img {
+  width: 45%;
+  float: left;
+  max-width: 500px;
+}
+@media screen and (max-width: 768px) {
+  .descricao-danki2 img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    margin-top: 10px;
+    max-width: 500px;
+  }
+}
+.descricao-danki3 {
+  padding: 30px 0 60px 0;
+}
+.descricao-danki3 .container {
+  max-width: 960px;
+  background-image: url(../imagens/bg2.jpg);
+  background-size: cover;
+  min-height: 350px;
+  position: relative;
+}
+.descricao-danki3 .box-depoimento {
+  position: absolute;
+  left: 50%;
+  width: 70%;
+  max-width: 506px;
+  background-color: #fff;
+  padding: 10px 30px;
+  bottom: -30px;
+  box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 0.5);
+}
+.descricao-danki3 .box-depoimento p {
+  font-size: 18px;
+  color: #31475e;
+  font-weight: lighter;
+}
+@media screen and (max-width: 1024px) {
+  .descricao-danki3 .box-depoimento {
+    width: 80%;
+    top: 50%;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+  }
 }
