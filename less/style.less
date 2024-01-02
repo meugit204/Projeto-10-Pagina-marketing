@@ -255,3 +255,71 @@ header {
         }
     }
 }
+
+// serviços
+.servicos {
+    padding: 25px 0;
+
+    .container {
+        max-width: 1100px;
+
+        .title-servicos {
+            text-align: center;
+
+            h3 {
+                color: #31475e;
+                font-size: 22px;
+                font-weight: normal;
+            }
+        }
+
+        .flex-servicos {
+            display: flex;
+            flex-wrap: wrap;
+
+            .box-servico {
+                background-color: #fff;
+                width: 33.3%;
+                border: 10px solid rgb(230, 230, 230);
+                border-radius: 3px;
+                box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 0.5);
+
+                img {
+                    width: 100%;
+                }
+
+                .box-servico-wraper {
+                    padding: 20px;
+
+                    h2 {
+                        color: #31475e;
+                        font-size: 20px;
+                        font-weight: normal;
+                    }
+
+                    p {
+                        margin: 8px 0;
+                        line-height: 1.6;
+                        color: #6a7c92;
+                        font-size: 15px;
+                        font: lighter;
+                    }
+
+                    a {
+                        display: inline-block;
+                        border: 1px solid #6a7c92;
+                        color: #6a7c92;
+                        padding: 6px 12px;
+                        border-radius: 10px;
+                    }
+                }
+
+                @media screen and (max-width:768px) {
+                    max-width: 400px;
+                    margin: 0 auto;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
