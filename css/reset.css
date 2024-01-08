@@ -36,6 +36,14 @@ body {
   margin: 0 auto;
   padding: 0 2%;
 }
+input[type=text],
+input[type=email],
+input[type=submit],
+input[type=tel],
+textarea {
+  appearance: none;
+  -webkit-appearance: none;
+}
 .clear {
   clear: both;
 }
