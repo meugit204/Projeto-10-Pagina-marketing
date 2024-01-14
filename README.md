@@ -1,4 +1,4 @@
-link do projeto: https://meugit204.github.io/Projeto-10-Danki-Code/
+link do projeto: https://meugit204.github.io/Projeto-10-Pagina-marketing/
 
 Projeto: Página de Marketing
 Este projeto é o resultado de uma aula do curso de Desenvolvedor Front-End da Danki Code, no qual pude aplicar meus conhecimentos em HTML, CSS e JavaScript. A proposta inclui a implementação do LESS como um adicional ao projeto, aproveitando a oportunidade para demonstrar familiaridade não apenas com as tecnologias essenciais, mas também com ferramentas avançadas de estilização.
